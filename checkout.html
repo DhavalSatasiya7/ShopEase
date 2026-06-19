@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Checkout</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo">
+                ShopEase
+            </a>
+
+            <ul class="nav-links">
+
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="products.html">Products</a></li>
+
+                <li><a href="categories.html">Categories</a></li>
+
+                <li><a href="contact.html">Contact</a></li>
+
+                <li><a href="checkout.html" class="active">Checkout</a></li>
+
+            </ul>
+
+            <div class="nav-icons">
+
+                <a href="checkout.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+
+                <a href="login.html">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- CHECKOUT SECTION -->
+
+    <section class="checkout-section">
+
+        <div class="container">
+
+            <div class="checkout-wrapper">
+
+                <!-- BILLING FORM -->
+
+                <div class="checkout-form">
+
+                    <h2>Billing Details</h2>
+
+                    <input type="text" placeholder="First Name">
+
+                    <input type="text" placeholder="Last Name">
+
+                    <input type="email" placeholder="Email">
+
+                    <input type="text" placeholder="Phone Number">
+
+                    <textarea rows="4" placeholder="Address"></textarea>
+
+                    <!-- PAYMENT METHOD -->
+
+                    <div class="payment-method">
+
+                        <h3>Payment Method</h3>
+
+                        <div class="payment-option">
+
+                            <input type="radio" name="payment">
+
+                            <span>Credit / Debit Card</span>
+
+                        </div>
+
+                        <div class="payment-option">
+
+                            <input type="radio" name="payment">
+
+                            <span>UPI Payment</span>
+
+                        </div>
+
+                        <div class="payment-option">
+
+                            <input type="radio" name="payment">
+
+                            <span>Cash On Delivery</span>
+
+                        </div>
+
+                    </div>
+
+                    <button>
+                        Place Order
+                    </button>
+
+                </div>
+
+                <!-- ORDER SUMMARY -->
+
+                <div class="order-summary">
+
+                    <h3>Order Summary</h3>
+
+                    <div class="summary-item">
+
+                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=300">
+
+                        <div>
+
+                            <h5>Nike Shoes</h5>
+
+                            <p>₹2999</p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="summary-item">
+
+                        <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=300">
+
+                        <div>
+
+                            <h5>iPhone</h5>
+
+                            <p>₹79999</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
